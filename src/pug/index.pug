@@ -1,0 +1,209 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Resume - Start Bootstrap Theme
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.1/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+            a.navbar-brand.js-scroll-trigger(href='#page-top')
+                span.d-block.d-lg-none Guido Van Hoof
+                span.d-none.d-lg-block
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+            #navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#about') Over
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Ervaring
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#education') Opleiding
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#skills') Vaardigheden
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Vrije tijd
+
+        // Page Content
+        .container-fluid.p-0
+
+            // About
+            section#about.resume-section
+                .resume-section-content
+                    h1.mb-0
+                        | Guido 
+                        span.text-primary Van Hoof
+                    .subheading.mb-5
+                        | Jodenstraat 53 · BE - 2270 Herenthout · +32 497 28 14 45 · 
+                        a(href='mailto:name@email.com') guido.van.hoof3@gmail.com
+                    p.lead.mb-5
+                        | Ik ben een Analist-Programmeur met meer dan 10 jaar ervaring in de bank sector.
+                    .social-icons
+                        a.social-icon(href='https://www.linkedin.com/in/guido-van-hoof-611874aa/')
+                            i.fab.fa-linkedin-in
+                        a.social-icon(href='github.com/guidovanhoof')
+                            i.fab.fa-github
+                        a.social-icon(href='https://www.facebook.com/guido.vanhoof.3')
+                            i.fab.fa-facebook-f
+
+            hr.m-0
+
+            // Experience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Ervaring
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Analist-Programmeur
+                            .subheading.mb-3 Argenta Spaarbank NV
+                            p
+                                | Onderhoud bestaande applicaties / Ontwikkelen van nieuwe features.<br/>Technologiën : Java, Spring, Hibernate, C++, Delphi, asQit, PL/Sql
+                        .flex-shrink-0
+                            span.text-primary Januari 2009 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Bediende Boekhouding / Analist-Programmeur
+                            .subheading.mb-3 Voeders Van den Berghe NV
+                            p
+                                | Algemene boekhoudkundige taken.<br />Applicatie in MS Access ontwikkeld voor het opvolgen van te bestellen kuikens.
+                        .flex-shrink-0
+                            span.text-primary December 2003 - November 2008
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Analist-Programmeur
+                            .subheading.mb-3 Digit NV 
+                            p
+                                | Consultant bij SD Worx
+                        .flex-shrink-0
+                            span.text-primary Januari 2000 - Juli 2003
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Opleiding
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Hoger Instituut Der Kempen
+                            .subheading.mb-3 Onderwijs voor Sociale Promotie
+                            div Geel
+                            p Informatica
+                        .flex-shrink-0
+                            span.text-primary September 1991 - Juni 1994
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Sint-Eligiusinstituut
+                            .subheading.mb-3 Economisch Hoger Onderwijs
+                            div Antwerpen
+                            p Boekhouden
+                        .flex-shrink-0
+                            span.text-primary September 1988 - Juni 1990
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Sint-Jozefscollege
+                            .subheading.mb-3 Algemeen Secundair Onderwijs
+                            div Herentals
+                            p Economische
+                        .flex-shrink-0
+                            span.text-primary September 1982 - Juni 1988
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Vaardigheden
+                    .subheading.mb-3 Programmeertalen, Frameworks
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Html, Css
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | JavaScript, Vue
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Java, Spring, Hibernate, Jsf
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Delpi
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | C++
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | PL/SQL
+
+                    .subheading.mt-3.mb-3 Tools
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | IntelliJ Idea, WebStorp, PhpStorm
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Visual Studio Code
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Git, Subversion
+
+            hr.m-0
+
+            // Interests
+            section#interests.resume-section
+                .resume-section-content
+                    h2.mb-5 Vrije tijd
+                    p
+                        | Wedstrijdvissen bij Visclub Moed & Volharding Herenthout
+                    p
+                        | Fitness
+                    p.mb-0
+                        | Muziek belijsteren
+
+            hr.m-0
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')

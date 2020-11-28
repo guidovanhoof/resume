@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/guidov1q/public_html/
+    - /bin/cp -R dist/* $DEPLOYPATH
+    #- /bin/cp dist/index.html $DEPLOYPATH
+    #- /bin/cp dist/assets/img/favicon.ico $DEPLOYPATH/assets/img/
+    #- /bin/cp dist/assets/img/profile.jpg $DEPLOYPATH/assets/img/
+    #- /bin/cp dist/css/styles.css $DEPLOYPATH/css/
+    #- /bin/cp dist/js/scripts.js $DEPLOYPATH/js/
